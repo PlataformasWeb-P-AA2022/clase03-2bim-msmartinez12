@@ -10,7 +10,7 @@ from administrativo.models import *
 
 def index(request):
     # return HttpResponse("Hola mundo desde Python")
-    return HttpResponse("Hola mundo desde Python<br/>%s" % (request.path))
+    return HttpResponse("Hola mundo desde Python<br/><br/>%s" % (request.path))
 
 def listadoEstudiantes(request):
     """
